@@ -72,6 +72,123 @@ h4 {
     text-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5); 
 }
 
+a {
+    color: #2098d1;
+    text-decoration: none;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 100;
+    padding: 2% 4% 2%;;
+    align-self: flex-start;
+    text-align: center;
+}
+
+button {
+    background: rgba(0, 0, 0, 0.3);;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid #2098d1;
+}
+
+.btn-xl {
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0px;
+    font-size: 19px;
+    padding: 20px 40px;   
+}
+
+.btn-xl:hover {
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0px;
+    font-size: 19px;
+    padding: 20px 40px; 
+
+}
+
+.img-hover {
+    background-color: #000;
+    opacity: .5;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+.text-primary {
+    color: #2098d1;
+}
+
+.fa-angle-double-down {
+    font-size: 18px;    
+    color: #fff;    
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    animation: bounce 2s;
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+}
+
+.section-title {
+    color: #000;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;        
+    margin-bottom: 20px;
+    font-weight: 300;
+    text-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5); 
+    opacity: 0;
+}
+
+.section-title-inv {
+    color: #fff;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;        
+    margin-bottom: 40px;
+    font-weight: 300;
+    text-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5); 
+    opacity: 0;
+}
+
+.section-title:after, .section-title-inv:after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 80px;
+    background: #2098d1;
+    margin: 15px auto 20px;
+    text-align: center;
+}
+
+p.section-desc {
+    font-size: 16px;
+    font-weight: 100;
+    padding: 0% 5% 2%;
+    align-self: flex-start;
+    text-align: center;    
+}
+
+.section-desc span {
+    color: #2098d1;
+    font-weight: 900;
+}
+
+p.author {
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 24px;
+    color: inherit;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase; 
+}
+
 #header-page {    
     padding: 10px;   
     padding-top: 120px;
@@ -102,13 +219,6 @@ header {
     padding: 30px;
 }
 
-.navbar-default .navbar-nav > li > a {
-    font-weight: 500;
-    font-size: 1.3em;
-    color: #fff;
-    transition: color .2s;
-}
-
 .slogan_1 {
     font-size: 50px;
     font-weight: 200;
@@ -120,6 +230,7 @@ header {
     font-family: 'Roboto', sans-serif;
     text-transform: lowercase;    
 }
+
 h1.slogan_1 span {
     color: #2098d1;
     font-size: 1.5em;
@@ -181,13 +292,34 @@ span .slo_3 {
     opacity: 0;   
 }
 
+.tools {
+    padding: 20px;
+    background: #fff;    
+}
+
+.tools img {
+    margin-right: 50px;
+}
+
+
+    /* ==============================================
+        NAVIGATION
+    =============================================== */ 
+
+.navbar-default .navbar-nav > li > a {
+    font-weight: 500;
+    font-size: 1.3em;
+    color: #fff;
+    transition: color .2s;
+}
+
 .menu img {
     float: left;
 }
+
 .navbar-default .navbar-nav > li > a:hover {
     color: #7bbbe9;
     background-color: rgba(255,255,255,0.1);
-
 }
 
 .navbar-default .navbar-nav > li > a:focus {
@@ -199,18 +331,6 @@ span .slo_3 {
 .nav > li > a {
     padding: 10px 10px;
 }
-
-.tools {
-    padding: 20px;
-    background: #fff;    
-}
-
-.tools img {
-    margin-right: 50px;
-}
-
-
-/* Navigation */
 
 .navbar-brand {
     padding: 10px 15px;    
@@ -357,79 +477,10 @@ span .slo_3 {
     padding: 10px 0;
 }
 
-.text-primary {
-    color: #2098d1;
-}
 
-.fa-angle-double-down {
-    font-size: 18px;    
-    color: #fff;    
-    -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-    animation: bounce 2s;
-    -moz-animation: bounce 2s infinite;
-    -webkit-animation: bounce 2s infinite;
-}
-
-.section-title {
-    color: #000;
-    font-size: 55px;
-    text-transform: uppercase;
-    text-align: center;        
-    margin-bottom: 20px;
-    font-weight: 300;
-    text-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5); 
-    opacity: 0;
-}
-
-.section-title-inv {
-    color: #fff;
-    font-size: 55px;
-    text-transform: uppercase;
-    text-align: center;        
-    margin-bottom: 40px;
-    font-weight: 300;
-    text-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5); 
-    opacity: 0;
-}
-
-.section-title:after, .section-title-inv:after {
-    display: block;
-    content: "";
-    height: 1px;
-    width: 80px;
-    background: #2098d1;
-    margin: 15px auto 20px;
-    text-align: center;
-}
-
-p.section-desc {
-    font-size: 16px;
-    font-weight: 100;
-    padding: 0% 5% 2%;
-    align-self: flex-start;
-    text-align: center;    
-}
-
-.section-desc span {
-    color: #2098d1;
-    font-weight: 900;
-}
-
-p.author {
-    font-weight: 100;
-    font-size: 18px;
-    line-height: 24px;
-    color: inherit;
-    text-align: center;
-    color: #000;
-    text-transform: uppercase; 
-}
-
-
-/* Section WORK */
+    /* ==============================================
+        WHAT I WORK SECTION
+    =============================================== */ 
 
 #work {
     background-color: #fff;
@@ -493,14 +544,15 @@ p.work {
     color: #2098d1;
 }
 
-
-/* SECTION SKILLS */
+    /* ==============================================
+        SKILLS SECTION
+    =============================================== */ 
 
 #skills {
     background-image: url('img/skills-bg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    background-color: #04608C;
+    background-color: transparent;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
@@ -542,7 +594,13 @@ p.work {
     font-size: 70%;
 }
 
-/* SECTION RECENT WORK - GALLERY*/
+
+
+
+
+    /* ==============================================
+        PORTFOLIO SECTION
+    =============================================== */ 
 
 .recent-work-item {   
     display: block;
@@ -562,6 +620,52 @@ p.work {
 #portfolio img {
    width: 100%;
    min-height: 225px;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal .lr {
+    height: 50px;
+    width: 1px;
+    margin-left: 35px;
+    background-color: #2098d1;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    z-index: 1051;
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    height: 50px;
+    width: 1px;
+    background-color: #2098d1;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    z-index: 1052;
+}
+
+.portfolio-modal .modal-content {
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    min-height: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.img-centered {
+    margin:0 auto;
 }
 
 .view {    
@@ -708,9 +812,9 @@ p.work {
    opacity: 1;
 }
 
-/*---------------------
----- Testimonials  ----
------------------------*/
+    /* ==============================================
+        TESTIMONIALS
+    =============================================== */ 
 
 #testimonials-slider{
     position: relative;
@@ -903,6 +1007,10 @@ p.work {
     background:transparent;
 }
 
+/* ==============================================
+      CONTACT STYLES
+    =============================================== */ 
+
 #contact {
     background-color: #fff;
     background-image: url(img/contact-bg.jpg);
@@ -932,6 +1040,7 @@ p.work {
     text-align: center;
     line-height: 1.5em;
 }
+
 .col-inner {
     border-right: 1px solid #2098d1;
 }
@@ -957,99 +1066,9 @@ p.work {
     text-align: center;
 }
 
-a {
-    color: #2098d1;
-    text-decoration: none;
-}
-
-p {
-    font-size: 14px;
-    font-weight: 100;
-    padding: 2% 4% 2%;;
-    align-self: flex-start;
-    text-align: center;
-}
-
-button {
-    background: rgba(0, 0, 0, 0.3);;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border: 2px solid #2098d1;
-}
-
-.btn-xl {
-    color: #fff;
-    font-weight: 700;
-    border-radius: 0px;
-    font-size: 19px;
-    padding: 20px 40px;   
-}
-
-.btn-xl:hover {
-    color: #fff;
-    font-weight: 700;
-    border-radius: 0px;
-    font-size: 19px;
-    padding: 20px 40px; 
-
-}
-
-.img-hover {
-    background-color: #000;
-    opacity: .5;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    bottom: 0;
-}
-
-.portfolio-modal .close-modal {
-    position: absolute;
-    width: 75px;
-    height: 75px;
-    background-color: transparent;
-    top: 25px;
-    right: 25px;
-    cursor: pointer;
-}
-
-.portfolio-modal .close-modal .lr {
-    height: 50px;
-    width: 1px;
-    margin-left: 35px;
-    background-color: #2098d1;
-    transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    z-index: 1051;
-}
-
-.portfolio-modal .close-modal .lr .rl {
-    height: 50px;
-    width: 1px;
-    background-color: #2098d1;
-    transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    z-index: 1052;
-}
-
-.portfolio-modal .modal-content {
-    border-radius: 0;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border: none;
-    min-height: 100%;
-    padding: 100px 0;
-    text-align: center;
-}
-
-.img-centered {
-    margin:0 auto;
-}
-
-/* Hover CSS */
+   /* ==============================================
+        HOVER CSS
+    =============================================== */    
 
 /* Underline From Center */
 .hvr-underline-from-center {
@@ -1127,6 +1146,13 @@ button {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+
+
+
+
+
+
 
 @media (min-width:1500px){
 
