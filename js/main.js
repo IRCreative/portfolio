@@ -1,5 +1,7 @@
 jQuery(document).ready(function($){
 
+	"use strict";
+
 	$(window).bind("load", function(){
 		$.when(
 			$('.preloader').fadeOut(2000),
@@ -122,6 +124,34 @@ jQuery(document).ready(function($){
 		
 			});	
 	},{offset:'80%'});
+
+
+
+	//  TESTIMONIALS CAROUSEL HOOK
+		        $('#customers-testimonials').owlCarousel({
+		            loop: true,
+		            center: true,
+		            items: 3,
+		            margin: 0,
+		            autoplay: true,
+		            dots:true,
+		            autoplayTimeout: 8500,
+		            smartSpeed: 450,
+		            dots: false,
+		            navigation: false,
+		            responsive: {
+		              0: {
+		                items: 1
+		              },
+		              768: {
+		                items: 2
+		              },
+		              1170: {
+		                items: 3
+		              }
+		            }
+		        });
+        	
  	
 
  	/*============================================
@@ -129,8 +159,9 @@ jQuery(document).ready(function($){
 	==============================================*/
 	$('#testimonials-slider').flexslider({
 		slideshow: true,
-		animation: 'fade',
+		/*animation: 'fade',*/
 		animationSpeed: 0,
+		animationLoop: true,
 		useCSS: true,
 		directionNav: false, 
 		controlNav: false, 
