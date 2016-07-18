@@ -57,7 +57,7 @@ h2 {
     font-size: 65px;
     text-transform: uppercase;
     text-align: center;        
-    margin: 20px;
+    margin: 10px;
     font-weight: 300;
     text-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5);  
 }
@@ -932,6 +932,9 @@ p.work {
     text-align: center;
     line-height: 1.5em;
 }
+.col-inner {
+    border-right: 1px solid #2098d1;
+}
 
 .heading-xlg h1 {
     font-size: 65px;
@@ -949,7 +952,7 @@ p.work {
 .social-links {
     font-size: 36px;
     font-weight: 100;
-    padding: 2% 4% 2%;
+    /*padding: 2% 4% 2%;*/
     align-self: flex-start;
     text-align: center;
 }

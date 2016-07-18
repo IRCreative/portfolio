@@ -159,4 +159,3 @@ jQuery(document).ready(function($){
 	       offset: ($(window).height() / 1.8)   })
 
 });
-
