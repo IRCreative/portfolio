@@ -297,7 +297,7 @@ span .slo_3 {
     text-align: center;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:hover {
-    color: #2098d1;
+    color: #fff;
     outline: 0;
 }
 .navbar-custom .navbar-nav>.active>a {
