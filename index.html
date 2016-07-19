@@ -155,14 +155,21 @@ font-family: 'Raleway', sans-serif;-->
 	<section id="portfolio" class="portfolio">
 		<div class="container">
 			<div class="row heading">
-
 				<h1 class="section-title">Recent <span>works</span></h1>
 				<p class="section-desc text-muted"> I approach every project with <span>creativity</span>, <span>passion</span> and <span>enthusiasm</span>. Check out a few examples of my work below.</p>
-			</div>										
+			</div>	
+
+
+			<div class="button-group filters-button-group">
+			  <button class="button btn-info btn-sm" data-filter="*">show all</button>
+			  <button class="button btn-info btn-sm" data-filter=".image">Image manipulation</button>
+			  <button class="button btn-info btn-sm" data-filter=".video">Video</button>
+			 </div>									
 					
 		
-        	<div class="row">
-	            <div class="col-sm-6 col-md-4 col-lg-3 recent-work-item view view-tenth">	                
+        	<div class="row grid">
+        	<div class="isotope"> <!-- extra div needed for isotope container -->
+	            <div class="col-sm-6 col-md-4 col-lg-3 col-xs-12 recent-work-item view view-tenth image">	                
 	                    <img  class="img-responsive" src="img/1.jpg" alt="">
 		                    <div class="mask">
 									<h3>Project with Slider</h3>
@@ -172,7 +179,7 @@ font-family: 'Raleway', sans-serif;-->
 								</a>
 							</div>
 	             </div>
-		            <div class="col-sm-6 col-md-4 col-lg-3 recent-work-item view view-tenth">	                
+		            <div class="col-sm-6 col-md-4 col-lg-3 col-xs-12 recent-work-item view view-tenth image">	                
 	                    <img  class="img-responsive" src="img/3.jpg" alt="">
 		                    <div class="mask">
 									<h3>Project with Slider</h3>
@@ -182,7 +189,7 @@ font-family: 'Raleway', sans-serif;-->
 								</a>
 							</div>
 					</div>
-		            <div class="col-sm-6 col-md-4 col-lg-3 recent-work-item view view-tenth">	                
+		            <div class="col-sm-6 col-md-4 col-lg-3 col-xs-12 recent-work-item view view-tenth video">	                
 	                    <img  class="img-responsive" src="img/2.jpg" alt="">
 		                    <div class="mask">
 									<h3>Project with Slider</h3>
@@ -192,7 +199,7 @@ font-family: 'Raleway', sans-serif;-->
 								</a>
 							</div>
 					</div>
-		            <div class="col-sm-6 col-md-4 col-lg-3 recent-work-item view view-tenth">	                
+		            <div class="col-sm-6 col-md-4 col-lg-3 col-xs-12 recent-work-item view view-tenth image">	                
 	                    <img  class="img-responsive" src="img/4.jpg" alt="">
 		                    <div class="mask">
 									<h3>Project with Slider</h3>
@@ -202,7 +209,7 @@ font-family: 'Raleway', sans-serif;-->
 								</a>
 							</div>
 					</div>
-		            <div class="col-sm-6 col-md-4 col-lg-3 recent-work-item view view-tenth">	                
+		            <div class="col-sm-6 col-md-4 col-lg-3 col-xs-12 recent-work-item view view-tenth video">	                
 	                    <img  class="img-responsive" src="img/4.jpg" alt="">
 		                    <div class="mask">
 									<h3>Project with Slider</h3>
@@ -212,7 +219,7 @@ font-family: 'Raleway', sans-serif;-->
 								</a>
 							</div>
 					</div>
-		            <div class="col-sm-6 col-md-4 col-lg-3 recent-work-item view view-tenth">	                
+		            <div class="col-sm-6 col-md-4 col-lg-3 col-xs-12 recent-work-item view view-tenth video">	                
 	                   <img class="img-responsive" src="http://placehold.it/400x300" alt="">
 		                    <div class="mask">
 									<h3>Project with Slider</h3>
@@ -222,7 +229,7 @@ font-family: 'Raleway', sans-serif;-->
 								</a>
 							</div>
 					</div>
-		            <div class="col-sm-6 col-md-4 col-lg-3 recent-work-item view view-tenth">	                
+		            <div class="col-sm-6 col-md-4 col-lg-3 col-xs-12 recent-work-item view view-tenth image">	                
 	                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
 		                    <div class="mask">
 									<h3>Project with Slider</h3>
@@ -232,7 +239,7 @@ font-family: 'Raleway', sans-serif;-->
 								</a>
 							</div>
 					</div>
-		            <div class="col-sm-6 col-md-4 col-lg-3 recent-work-item view view-tenth">	                
+		            <div class="col-sm-6 col-md-4 col-lg-3 col-xs-12 recent-work-item view view-tenth" class="video">	                
 	                   <img class="img-responsive" src="http://placehold.it/400x300" alt="">
 		                    <div class="mask">
 									<h3>Project with Slider</h3>
@@ -242,6 +249,7 @@ font-family: 'Raleway', sans-serif;-->
 								</a>
 							</div>
 					</div>	
+				</div>
 				</div>					
 									
 	</section> <!-- end section Portfolio -->
@@ -578,9 +586,9 @@ font-family: 'Raleway', sans-serif;-->
 <script src="js/bootstrap.js"></script>
 <script src="js/jquery.easypiechart.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
-<script src="js/main.js"></script>
 <script src="js/jquery.waypoints.js"></script>
 <script src="js/isotope.pkgd.min.js"></script>
+<script src="js/main.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 
 

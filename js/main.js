@@ -50,7 +50,7 @@ jQuery(document).ready(function($){
 
 	function scrollSpyRefresh(){
 		setTimeout(function(){
-			$('body').scrollspy('refresh');
+			$('body,html').scrollspy('refresh');
 		},1000);
 	}	
 	
@@ -100,11 +100,11 @@ jQuery(document).ready(function($){
 		);
 
 		// RECENT WORKS SECTION //
-		$('#portfolio').waypoint(function(){
+		/*$('#portfolio').waypoint(function(){
 			$('.recent-work-item').addClass('animated fadeInUp');
 
 		}, {offset: '80%'}
-		);
+		);*/
 
 	/*============================================
 	SKILLS animations
@@ -187,6 +187,34 @@ jQuery(document).ready(function($){
 	    $('.about-info').addClass('animated fadeInRightBig ');
 	    $('.section-title.about').addClass('animated fadeInDown');
 	      }, 
-	       offset: ($(window).height() / 1.8)   })
+	       offset: ($(window).height() / 1.8)   });
+
+
+
+
+	       var $grid = $('.grid').isotope({
+  			itemSelector: '.recent-work-item',
+  			
+  			      isFitWidth: true
+  			
+});
+
+// filter items on button click
+
+$('.filters-button-group').on( 'click', '.button', function() {
+  var filterValue = $(this).attr('data-filter');
+
+
+  $grid.isotope({ filter: filterValue });
+
+	
+ 	
+});	
 
 });
+
+
+
+
+
+
