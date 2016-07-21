@@ -33,7 +33,7 @@ section {
 }
 
 .logo-top {
-    max-width: 200px;
+    max-width: 150px;
 }
 
 .center {
@@ -189,13 +189,32 @@ p.author {
     text-transform: uppercase; 
 }
 
-#header-page {    
-    padding: 10px;   
-    padding-top: 120px;
-    padding-bottom: 100px;    
+#first-lyr img {
+    width: 100%;
 }
 
-header {   
+#scene {
+    width: 100%;
+    height: 100%;
+    
+    position: absolute;
+    padding: 0;
+}
+
+#head {    
+    background-image: url(img/bg-2.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    overflow: hidden;     
+}
+
+/*header {   
     background-image: url(img/bg-2.jpg);
     background-position: center right;
     background-repeat: no-repeat;
@@ -206,7 +225,7 @@ header {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
     overflow: hidden;    
-}
+}*/
 
 .top-row {
     margin-top: 130px;
@@ -242,7 +261,7 @@ h1.slogan_1 span {
 }
 
 .slogan_2 {
-    font-size: 25px;
+    font-size: 18px;
     font-style: italic;
     margin-bottom: 20px;
     opacity: 0;
@@ -333,13 +352,14 @@ span .slo_3 {
 }
 
 .navbar-brand {
-    padding: 10px 15px;    
+    padding: 0px 15px;    
 }
 
 .navbar-custom .navbar-toggle {
     background-color: #2098d1;
     border-color: #fff;
     font-size: 12px;
+    margin-top: 0px;
 }
 
 .navbar-custom .navbar-brand {
@@ -506,7 +526,7 @@ p.work {
 
 .work-item {
     margin-bottom: 40px;
-    opacity: 0;
+    
 
 }
 
@@ -521,6 +541,7 @@ p.work {
     overflow: hidden;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
+    opacity: 0;
 }
 
 .work-icon:hover {   
@@ -609,8 +630,18 @@ p.work {
 }
 
 #portfolio {
-    margin: 0 0 80px;
-    background: #fff;    
+    margin: 0 0 0px;
+    /*background-image: url(img/layer.png);*/
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    overflow: hidden;
+    position: relative;     
 }
 
 #portfolio img {

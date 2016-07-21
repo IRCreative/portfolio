@@ -93,8 +93,8 @@ jQuery(document).ready(function($){
 		);
 
     	// WHAT I WORK SECTION //
-		$('.work-item').waypoint(function(){
-			$('.work-item').addClass('animated fadeInUp');
+		$('.work-icon').waypoint(function(){
+			$('.work-icon').addClass('animated fadeInUp');
 
 		}, {offset: '80%'}
 		);
@@ -193,23 +193,33 @@ jQuery(document).ready(function($){
 
 
 	       var $grid = $('.grid').isotope({
-  			itemSelector: '.recent-work-item',
-  			
-  			      isFitWidth: true
-  			
+  				itemSelector: '.recent-work-item',  			
+  				isFitWidth: true  			
+			});
+
+			// filter items on button click
+			$('.filters-button-group').on( 'click', '.button', function() {
+			  var filterValue = $(this).attr('data-filter');
+
+			$grid.isotope({ filter: filterValue }); 	
+			});	
+
+
+			var scene = document.getElementById('scene');
+var parallax = new Parallax(scene, {
+  calibrateX: true,
+  calibrateY: true,
+  invertX: false,
+  invertY: false,
+  limitX: false,
+  limitY: 20,
+  scalarX: 2,
+  scalarY: 8,
+  frictionX: 0.2,
+  frictionY: 0.8,
+  originX: 0.0,
+  originY: 1.0
 });
-
-// filter items on button click
-
-$('.filters-button-group').on( 'click', '.button', function() {
-  var filterValue = $(this).attr('data-filter');
-
-
-  $grid.isotope({ filter: filterValue });
-
-	
- 	
-});	
 
 });
 
