@@ -206,20 +206,20 @@ jQuery(document).ready(function($){
 
 
 			var scene = document.getElementById('scene');
-var parallax = new Parallax(scene, {
-  calibrateX: true,
-  calibrateY: true,
-  invertX: false,
-  invertY: false,
-  limitX: false,
-  limitY: 20,
-  scalarX: 2,
-  scalarY: 8,
-  frictionX: 0.2,
-  frictionY: 0.8,
-  originX: 0.0,
-  originY: 1.0
-});
+			var parallax = new Parallax(scene, {
+				  calibrateX: false,
+				  calibrateY: false,
+				  invertX: false,
+				  invertY: false,
+				  limitX: false,
+				  limitY: 20,
+				  scalarX: 2,
+				  scalarY: 2,
+				  frictionX: 0.2,
+				  frictionY: 0.2,
+				  originX: 0.0,
+				  originY: 1.0
+			});
 
 });
 
