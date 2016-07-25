@@ -189,17 +189,15 @@ p.author {
     text-transform: uppercase; 
 }
 
-#first-lyr img {
+/*#first-lyr {
     width: 100%;
 }
 
 #scene {
-    width: 100%;
-    height: 100%;
-    
     position: absolute;
     padding: 0;
-}
+    width: 100%;
+}*/
 
 #head {    
     background-image: url(img/bg-2.jpg);
@@ -631,7 +629,7 @@ p.work {
 
 #portfolio {
     margin: 0 0 0px;
-    /*background-image: url(img/layer.png);*/
+    background-image: url(img/layer.png);
     background-position: center right;
     background-repeat: no-repeat;
     background-attachment: fixed; 

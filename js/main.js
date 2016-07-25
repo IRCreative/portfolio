@@ -205,7 +205,7 @@ jQuery(document).ready(function($){
 			});	
 
 
-			var scene = document.getElementById('scene');
+			var scene = document.getElementById('portfolio');
 			var parallax = new Parallax(scene, {
 				  calibrateX: false,
 				  calibrateY: false,
