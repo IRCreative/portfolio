@@ -151,32 +151,7 @@ jQuery(document).ready(function($){
 		              }
 		            }
 		        });
-        	
- 	
-
- 	/*============================================
-	Testimonials
-	==============================================*/
-	$('#testimonials-slider').flexslider({
-		slideshow: true,
-		/*animation: 'fade',*/
-		animationSpeed: 0,
-		animationLoop: true,
-		useCSS: true,
-		directionNav: false, 
-		controlNav: false, 
-		pauseOnAction: false, 
-		pauseOnHover: false,
-		smoothHeight: false
-	});
-	
-		$('.testimonial-controls .previous').click(function(){
-			$('#testimonials-slider').flexslider('previous');
-		});
-		
-		$('.testimonial-controls .next').click(function(){
-			$('#testimonials-slider').flexslider('next');
-		});
+      
 
     
  	// Init waypoint animations //
@@ -191,35 +166,18 @@ jQuery(document).ready(function($){
 
 
 
+ 	// Init ISOTOPE.js //
+	var $grid = $('.grid').isotope({
+		itemSelector: '.recent-work-item',  			
+		isFitWidth: true  			
+	});
 
-	       var $grid = $('.grid').isotope({
-  				itemSelector: '.recent-work-item',  			
-  				isFitWidth: true  			
-			});
+	// filter items on button click
+		$('.filters-button-group').on( 'click', '.button', function() {
+		  var filterValue = $(this).attr('data-filter');
 
-			// filter items on button click
-			$('.filters-button-group').on( 'click', '.button', function() {
-			  var filterValue = $(this).attr('data-filter');
-
-			$grid.isotope({ filter: filterValue }); 	
-			});	
-
-
-			var scene = document.getElementById('portfolio');
-			var parallax = new Parallax(scene, {
-				  calibrateX: false,
-				  calibrateY: false,
-				  invertX: false,
-				  invertY: false,
-				  limitX: false,
-				  limitY: 20,
-				  scalarX: 2,
-				  scalarY: 2,
-				  frictionX: 0.2,
-				  frictionY: 0.2,
-				  originX: 0.0,
-				  originY: 1.0
-			});
+		$grid.isotope({ filter: filterValue }); 	
+		});				
 
 });
 
