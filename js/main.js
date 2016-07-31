@@ -1,7 +1,7 @@
 jQuery(document).ready(function($){
 
-	"use strict";
-
+	/*"use strict";
+*/
 	$(window).bind("load", function(){
 		$.when(
 			$('.preloader').fadeOut(2000),
@@ -64,8 +64,16 @@ jQuery(document).ready(function($){
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - 100 
         }, 1500, 'easeInOutExpo');
-        event.preventDefault();
+        event.preventDefault();        
     });
+
+    /*$("#mainNav").affix({
+
+
+        offset: {
+            top: 100
+        }
+    });*/
 
     /*============================================
 	Section title animations
@@ -96,15 +104,19 @@ jQuery(document).ready(function($){
 		$('.work-icon').waypoint(function(){
 			$('.work-icon').addClass('animated fadeInUp');
 
+
 		}, {offset: '80%'}
 		);
 
 		// RECENT WORKS SECTION //
-		/*$('#portfolio').waypoint(function(){
-			$('.recent-work-item').addClass('animated fadeInUp');
+		$('#portfolio').waypoint(function(){
+			$('.recent-work-item').addClass('animated fadeInUp')
+				},	
+			
 
-		}, {offset: '80%'}
-		);*/
+		 {offset: '80%'}
+		 );
+		
 
 	/*============================================
 	SKILLS animations

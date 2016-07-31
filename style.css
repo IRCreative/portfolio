@@ -244,7 +244,7 @@ p.author {
     opacity: 0;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    text-transform: lowercase;
+    text-transform: uppercase;
 }
 
 h1.slogan_1 span {
@@ -405,6 +405,11 @@ span .slo_3 {
 .navbar-custom {
     background: linear-gradient(to bottom,rgba(32,152,209,0.7) 0,rgba(0,0,0,0) 95%,rgba(0,0,0,0) 99%);
     border: none;
+}
+
+/*.navbar-custom .affix {
+    padding: 0;*/
+
 }
 .navbar-custom .navbar-brand {
     color: #fed136;
@@ -624,7 +629,7 @@ p.work {
     padding: 0 1px;
     margin-bottom: 2px;    
     background: #fff;
-    
+    opacity: 0;
 }
 
 #portfolio {
@@ -1325,5 +1330,11 @@ transition-timing-function: ease-out;
     padding-right: 0;
     padding-left: 0;
   }
+}
+@media (max-width: 400px) {
+.about-img {
+    margin-left: -20px;
+}
+
 }
 
