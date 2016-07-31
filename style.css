@@ -1095,7 +1095,6 @@ p.work {
     overflow: hidden;   
 }
 
-
 #contact h2{
     color: #fff;
     font-size: 20px;
@@ -1135,6 +1134,15 @@ p.work {
     /*padding: 2% 4% 2%;*/
     align-self: flex-start;
     text-align: center;
+}
+
+#contact .copyright {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;    
+    padding: 5px;
+    margin-bottom: -25px;
 }
 
    /* ==============================================
@@ -1289,6 +1297,8 @@ transition-timing-function: ease-out;
     transition: all 250ms ease-out 0s;
     width: 20px;
 }
+
+
 
 
 
