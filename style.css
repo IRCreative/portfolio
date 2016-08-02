@@ -507,7 +507,7 @@ span .slo_3 {
 
 #work {
     background-color: #fff;
-    background-image: url(img/prepare.jpg);
+    background-image: url(img/bg2.jpg);
     background-position: center center;
     background-repeat: repeat;
     background-attachment: fixed; 
@@ -1083,8 +1083,8 @@ p.work {
     =============================================== */ 
 
 #contact {
-    background-image: url(img/contact-bg.jpg);
-    background-position: bottom center;
+    background-image: url(img/bg2.jpg);
+    background-position: center center;
     background-repeat: repeat;
     background-attachment: scroll;
     background-size: cover;
