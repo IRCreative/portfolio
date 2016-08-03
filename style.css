@@ -200,7 +200,7 @@ p.author {
 }*/
 
 #head {    
-    background-image: url(img/bg-2.jpg);
+    background-image: url(img/bg-3.jpg);
     background-position: center right;
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -1083,7 +1083,7 @@ p.work {
     =============================================== */ 
 
 #contact {
-    background-image: url(img/bg2.jpg);
+    background-image: url(img/contact-bg.jpg);
     background-position: center center;
     background-repeat: repeat;
     background-attachment: scroll;
