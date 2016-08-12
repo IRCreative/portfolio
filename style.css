@@ -1,14 +1,12 @@
-body {  
-    
+body {
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
-    background:transparent !important;    
+    background:transparent !important;
 }
 
 #wrapper {
     opacity: 0;
     width: 100%;
-    
 }
 
 section {
@@ -20,10 +18,10 @@ section {
   top: 50%;
   left: 50%;
   /* bring your own prefixes */
-  transform: translate(-50%, -50%); 
-  overflow: hidden; 
-
+  transform: translate(-50%, -50%);
+  overflow: hidden;
 }
+
 .logo {
     height: 150px;
     width: 150px;
@@ -44,32 +42,32 @@ h1 {
     color: #fff;
     font-size: 60px;
     text-transform: uppercase;
-    text-align: center;        
+    text-align: center;
     margin: 10px;
     overflow: hidden;
     height: auto;
     font-weight: 300;
-    text-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5);    
+    text-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
 h2 {
     color: #000;
     font-size: 65px;
     text-transform: uppercase;
-    text-align: center;        
+    text-align: center;
     margin: 10px;
     font-weight: 300;
-    text-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5);  
+    text-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
 h4 {
     color: #000;
     font-size: 25px;
     text-transform: uppercase;
-    text-align: center;        
+    text-align: center;
     margin: 20px;
     font-weight: 300;
-    text-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5); 
+    text-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
 a {
@@ -97,7 +95,7 @@ button {
     font-weight: 700;
     border-radius: 0px;
     font-size: 19px;
-    padding: 20px 40px;   
+    padding: 20px 40px;
 }
 
 .btn-xl:hover {
@@ -105,7 +103,7 @@ button {
     font-weight: 700;
     border-radius: 0px;
     font-size: 19px;
-    padding: 20px 40px; 
+    padding: 20px 40px;
 
 }
 
@@ -123,8 +121,8 @@ button {
 }
 
 .fa-angle-double-down {
-    font-size: 18px;    
-    color: #fff;    
+    font-size: 18px;
+    color: #fff;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
@@ -138,10 +136,10 @@ button {
     color: #000;
     font-size: 55px;
     text-transform: uppercase;
-    text-align: center;        
+    text-align: center;
     margin-bottom: 20px;
     font-weight: 300;
-    text-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5); 
+    text-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5);
     opacity: 0;
 }
 
@@ -149,10 +147,10 @@ button {
     color: #fff;
     font-size: 55px;
     text-transform: uppercase;
-    text-align: center;        
+    text-align: center;
     margin-bottom: 40px;
     font-weight: 300;
-    text-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5); 
+    text-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5);
     opacity: 0;
 }
 
@@ -171,7 +169,7 @@ p.section-desc {
     font-weight: 100;
     padding: 0% 5% 2%;
     align-self: flex-start;
-    text-align: center;    
+    text-align: center;
 }
 
 .section-desc span {
@@ -179,15 +177,7 @@ p.section-desc {
     font-weight: 900;
 }
 
-p.author {
-    font-weight: 100;
-    font-size: 18px;
-    line-height: 24px;
-    color: inherit;
-    text-align: center;
-    color: #000;
-    text-transform: uppercase; 
-}
+
 
 /*#first-lyr {
     width: 100%;
@@ -199,30 +189,30 @@ p.author {
     width: 100%;
 }*/
 
-#head {    
+#head {
     background-image: url(img/bg2.jpg);
     background-position: center right;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     background-size: cover;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
-    overflow: hidden;     
+    overflow: hidden;
 }
 
-/*header {   
+/*header {
     background-image: url(img/bg-2.jpg);
     background-position: center right;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     background-size: cover;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
-    overflow: hidden;    
+    overflow: hidden;
 }*/
 
 .top-row {
@@ -267,7 +257,7 @@ h1.slogan_1 span {
     line-height: 1.5em;
     font-weight: 300;
     font-family: 'Raleway', sans-serif;
-    /*position: absolute; */     
+    /*position: absolute; */
   }
 
 .slogan_2 span {
@@ -284,11 +274,11 @@ span .slo_3 {
     height: 100%;
 }
 
-#menu {   
+#menu {
     bottom: 0 !important;
     top:0;
     height: 80px;
-    padding: 10px 0;       
+    padding: 10px 0;
 }
 
 #info {
@@ -306,12 +296,12 @@ span .slo_3 {
     background: url(img/relja.png);
     background-repeat: no-repeat;
     margin-bottom: -51px;
-    opacity: 0;   
+    opacity: 0;
 }
 
 .tools {
     padding: 20px;
-    background: #fff;    
+    background: #fff;
 }
 
 .tools img {
@@ -321,7 +311,7 @@ span .slo_3 {
 
     /* ==============================================
         NAVIGATION
-    =============================================== */ 
+    =============================================== */
 
 .navbar-default .navbar-nav > li > a {
     font-weight: 500;
@@ -350,7 +340,7 @@ span .slo_3 {
 }
 
 .navbar-brand {
-    padding: 0px 15px;    
+    padding: 0px 15px;
 }
 
 .navbar-custom .navbar-toggle {
@@ -368,7 +358,7 @@ span .slo_3 {
     color: #fec503;
 }
 .navbar-custom .nav li a, .navbar-custom .navbar-toggle {
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     back
 }
@@ -419,7 +409,7 @@ span .slo_3 {
     color: #fec503;
 }
 .navbar-custom .nav li a, .navbar-custom .navbar-toggle {
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
 }
 .navbar-custom .navbar-collapse {
@@ -476,8 +466,8 @@ span .slo_3 {
     border: none;
 }
 .navbar-custom .navbar-collapse .in {
-    border-color: rgba(255, 255, 255, .9); 
-    background-color: rgba(255,255,255,0.1);   
+    border-color: rgba(255, 255, 255, .9);
+    background-color: rgba(255,255,255,0.1);
 }
 
 .navbar-custom .navbar-brand {
@@ -487,7 +477,7 @@ span .slo_3 {
     transition: all .3s;
 }
 
-.navbar-custom.affix {   
+.navbar-custom.affix {
     padding: 10px 0;
 }
 
@@ -496,22 +486,22 @@ span .slo_3 {
 }
 }
 
-.shrink {    
+.shrink {
     padding: 10px 0;
 }
 
 
     /* ==============================================
         WHAT I WORK SECTION
-    =============================================== */ 
+    =============================================== */
 
 #work {
     background-color: #0e2f44;
     /*background-image: url(img/bg2.jpg);*/
     background-position: center center;
     background-repeat: repeat;
-    background-attachment: fixed; 
-    background-size: cover;   
+    background-attachment: fixed;
+    background-size: cover;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
@@ -529,29 +519,62 @@ p.work {
 
 .work-item {
     margin-bottom: 40px;
-    
-
 }
 
 .work-icon {
     display: block;
+    position: relative;
     margin: 0 auto 30px;
-    width: 180px;
-    height: 180px;
-    border: 2px solid #fff;
+    width: 100px;
+    height: 100px;
+    /*border: 2px solid transparent;
+    border-bottom-color: white;
+    border-top-color: white;*/
     color: #fff;
     border-radius: 50%;
     overflow: hidden;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
+    /*animation: spinny 2s linear infinite;*/
+    /*-webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;*/
     opacity: 0;
 }
 
-.work-icon:hover {   
-    border: 2px solid #2098d1;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-i;
+.work-icon::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-bottom-color: white;
+  border-top-color: white;
+  position: absolute;
+}
 
+.work-icon:hover::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-bottom-color: white;
+  border-top-color: white;
+  position: absolute;
+  animation: spinny 6s linear infinite;
+}
+
+.work-icon:hover {
+
+    /*border: 2px solid #2098d1;*/
+    /*-webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;*/
+
+}
+
+@-webkit-keyframes spinny {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
 }
 .work-item .fa {
     font-size: 60px;
@@ -568,9 +591,50 @@ p.work {
     color: #2098d1;
 }
 
+.work-item img {
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.work-item img:hover {
+    font-size: 80px;
+    transform: scale(1);
+    /*-webkit-transform: rotate(-15deg);*/
+    /*transform: rotate(360deg);*/
+    animation: pulse 1s linear infinite;
+    color: #2098d1;
+}
+
+p.author {
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 24px;
+    color: inherit;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 5px;
+}
+
+p.author_2 {
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 24px;
+    color: inherit;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 5px;
+}
+
     /* ==============================================
         SKILLS SECTION
-    =============================================== */ 
+    =============================================== */
 
 #skills {
     background-image: url(img/skills-bg.jpg);
@@ -582,7 +646,7 @@ p.work {
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
-    overflow: hidden;   
+    overflow: hidden;
 }
 
 #skills .section-title-inv:after {
@@ -620,14 +684,14 @@ p.work {
 
     /* ==============================================
         PORTFOLIO SECTION
-    =============================================== */ 
+    =============================================== */
 
-.recent-work-item {   
+.recent-work-item {
     /*display: block;*/
     position: relative;
     margin: 0;
     padding: 0 1px;
-    margin-bottom: 2px;    
+    margin-bottom: 2px;
     background: #fff;
     opacity: 0;
 }
@@ -637,14 +701,14 @@ p.work {
     background-image: url(img/layer.png);
     background-position: center right;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     background-size: cover;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
     overflow: hidden;
-    position: relative;     
+    position: relative;
 }
 
 #portfolio img {
@@ -698,11 +762,11 @@ p.work {
     margin:0 auto;
 }
 
-.view {    
+.view {
     overflow: hidden;
     text-align: center;
     cursor: default;
-    
+
 }
 .view .mask, .view .content {
     width: 100%;
@@ -729,16 +793,16 @@ p.work {
     font-style: italic;
     nt-size: 14px;
     color: #333;
-    position: relative;    
+    position: relative;
     padding: 10px 20px 20px;
     text-align: center;
 }
 .view a.info {
     display: inline-block;
     text-decoration: none;
-    padding: 7px 14px;    
+    padding: 7px 14px;
     color: #fff;
-    
+
 }
 
 .view a.info:hover {
@@ -768,7 +832,7 @@ p.work {
    filter: alpha(opacity=0);
    opacity: 0;
 }
-.view-tenth h3 {   
+.view-tenth h3 {
    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
    background: transparent;
    margin: 40px 40px 0px 40px;
@@ -776,7 +840,7 @@ p.work {
    -moz-transform: scale(0);
    -o-transform: scale(0);
    -ms-transform: scale(0);
-   transform: scale(0);   
+   transform: scale(0);
    -webkit-transition: all 0.5s linear;
    -moz-transition: all 0.5s linear;
    -o-transition: all 0.5s linear;
@@ -786,7 +850,7 @@ p.work {
    filter: alpha(opacity=0);
    opacity: 0;
 }
-.view-tenth p {   
+.view-tenth p {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
@@ -885,7 +949,7 @@ p.work {
 
     /* ==============================================
         TESTIMONIALS
-    =============================================== */ 
+    =============================================== */
 
 #testimonials-slider{
     position: relative;
@@ -953,11 +1017,11 @@ p.work {
 }
 
 .testimonial-controls .previous{
-    padding-left:12px; 
+    padding-left:12px;
 }
 
 .testimonial-controls .next{
-    padding-left:15px; 
+    padding-left:15px;
 }
 
 .testimonial-controls span:hover{
@@ -976,13 +1040,13 @@ p.work {
 #testimonials  img{
     /*margin-right:20px;*/
     max-width: 50px;
-    
+
 }
 
 #testimonials .media-body{
     position: relative;
     padding: 0px 60px 20px;
-    background: #fff;    
+    background: #fff;
 }
 #testimonials .media:after{
     border: 1px solid black,
@@ -1055,7 +1119,7 @@ p.work {
 
 #testimonials .client{
     margin-bottom: 0;
-    font-style: italic;    
+    font-style: italic;
 }
 
 .client-logo{
@@ -1080,7 +1144,7 @@ p.work {
 
 /* ==============================================
       CONTACT STYLES
-    =============================================== */ 
+    =============================================== */
 
 #contact {
     background-image: url(img/bg-3.jpg);
@@ -1092,7 +1156,7 @@ p.work {
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
-    overflow: hidden;   
+    overflow: hidden;
 }
 
 #contact h2{
@@ -1140,14 +1204,14 @@ p.work {
     color: #fff;
     font-size: 14px;
     font-weight: 400;
-    margin-top: 20px;    
+    margin-top: 20px;
     padding: 5px;
     margin-bottom: -25px;
 }
 
    /* ==============================================
         HOVER CSS
-    =============================================== */    
+    =============================================== */
 
 /* Underline From Center */
 .hvr-underline-from-center {
@@ -1261,7 +1325,7 @@ transition-timing-function: ease-out;
 #customers-testimonials .item {
     text-align: center;
     padding: 50px;
-  
+
     opacity: .2;
     -webkit-transform: scale3d(0.8, 0.8, 1);
     transform: scale3d(0.8, 0.8, 1);
@@ -1347,4 +1411,3 @@ transition-timing-function: ease-out;
 }
 
 }
-
