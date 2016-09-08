@@ -561,7 +561,7 @@ p.work {
   border-bottom-color: white;
   border-top-color: white;
   position: absolute;
-  animation: spinny 6s linear infinite;
+  animation: spinny 3s linear infinite;
 }
 
 .work-icon:hover {
@@ -573,6 +573,17 @@ p.work {
 }
 
 @-webkit-keyframes spinny {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+.work-item .fa {
+    font-size: 60px;
+    line-height: 180px;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+@keyframes spinny {
   0%  {transform: rotate(0deg);}
   100% {transform: rotate(360deg);}
 }
@@ -604,7 +615,7 @@ p.work {
     transform: scale(1);
     /*-webkit-transform: rotate(-15deg);*/
     /*transform: rotate(360deg);*/
-    animation: pulse 1s linear infinite;
+
     color: #2098d1;
 }
 
@@ -1369,11 +1380,11 @@ transition-timing-function: ease-out;
 
 
 
-@media (min-width:1500px){
+/*@media (min-width:1500px){
 
 .container{
         width:1500px;
-}
+}*/
 
 #portfolio img {
     width: 100%;
